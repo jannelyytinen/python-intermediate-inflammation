@@ -8,7 +8,7 @@ and each column represents a single day across all patients.
 """
 
 import json
-import numpy as np
+#import numpy as np
 
 
 def load_csv(filename):
@@ -65,4 +65,3 @@ def daily_min(data):
     :returns: Min values array
     """
     return np.min(data, axis=0)
-
