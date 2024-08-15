@@ -17,7 +17,7 @@ def main(args):
     """
     infiles = args.infiles
     if not isinstance(infiles, list):
-        InFiles = [args.infiles]
+        infiles = [args.infiles]
 
 
     if args.full_data_analysis:
